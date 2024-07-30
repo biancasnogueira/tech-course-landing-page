@@ -1,26 +1,38 @@
-# Projeto Landing Page - Escola DNC
+# 🎓 Projeto Landing Page - Escola DNC
 
-Bem-vindo ao repositório do projeto de Landing Page da Escola DNC, parte do módulo base do curso de Tecnologia da DNC.
+Bem-vindo ao repositório do projeto de Landing Page da Escola DNC! Este projeto faz parte do módulo base do curso de Tecnologia da DNC.
 
-## Descrição
+## 📄 Descrição
 
-Landing Page para captar leads interessados nos cursos de Tecnologia da Escola DNC. A página inclui inscrição para um curso gratuito, depoimentos e informações sobre os cursos. Após a inscrição com nome e email, os usuários têm acesso a uma ementa exclusiva.
+Esta Landing Page foi criada para captar leads interessados nos cursos de Tecnologia da Escola DNC. A página oferece:
 
-## Tecnologias
+- Inscrição para um curso gratuito
+- Depoimentos de alunos
+- Informações detalhadas sobre os cursos
 
-- HTML5
-- CSS3
-- JavaScript
-- Sheet Monkey para backend e integração com Google Sheets
+Após a inscrição com nome e email, os usuários têm acesso a uma **ementa exclusiva**.
 
-## Execução
+## 🛠 Tecnologias Utilizadas
+
+- **HTML5**
+- **CSS3**
+- **JavaScript**
+- **Sheet Monkey** para backend e integração com Google Sheets
+
+## 🚀 Como Executar
 
 1. Clone o repositório:
     ```bash
-    git clone https://github.com/biancasnogueira/projeto-landing-page.git 
+    git clone https://github.com/biancasnogueira/projeto-landing-page.git
     ```
-2. Abra o arquivo `index.html` no navegador.
+2. Abra o arquivo `index.html` no seu navegador.
 
-## Backend e Integração
+## 🔗 Backend e Integração
 
-Formulário integrado com Google Sheets via Sheet Monkey para armazenar leads no Google Drive. Após a inscrição, os usuários recebem acesso a uma ementa exclusiva.
+O formulário de inscrição é integrado com Google Sheets via **Sheet Monkey** para armazenar leads diretamente no Google Drive. Após a inscrição, os usuários recebem acesso a uma **ementa exclusiva**.
+
+## 🌐 Link da Página
+
+A Landing Page está no ar! Confira pelo link: [https://project-landing-page-escola-dnc.netlify.app/](https://project-landing-page-escola-dnc.netlify.app/)
+
+---
