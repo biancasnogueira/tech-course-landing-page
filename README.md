@@ -23,7 +23,7 @@ Após a inscrição com nome e email, os usuários têm acesso a uma **ementa ex
 
 1. Clone o repositório:
     ```bash
-    git clone https://github.com/biancasnogueira/projeto-landing-page.git
+    git clone https://github.com/biancasnogueira/tech-course-landing-page.git
     ```
 2. Abra o arquivo `index.html` no seu navegador.
 
