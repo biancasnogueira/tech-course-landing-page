@@ -137,6 +137,7 @@ button:hover{
     transform: translateY(-5px);
     box-shadow: 0px 15px 20px #1f5972;
     transition-duration: 0.5s;
+<<<<<<< HEAD
 }
 
 /* Adicionando media query para mobile  */
@@ -169,4 +170,6 @@ button:hover{
         width:100%;
         margin:0px;
     }
+=======
+>>>>>>> 49bd00a4991eff6f3b8ac2024c756d2171c602c3
 }
