@@ -137,39 +137,139 @@ button:hover{
     transform: translateY(-5px);
     box-shadow: 0px 15px 20px #1f5972;
     transition-duration: 0.5s;
-<<<<<<< HEAD
 }
 
 /* Adicionando media query para mobile  */
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 600px) {
     /* Menu */
-    #menusuperior{        
+    #menusuperior {
         flex-direction: column;
-        height:500px;
-        width: 100%;
+        height: auto;
+        padding: 20px;
+        text-align: center;
     }
 
-    #menuinformacional{
+    #logo {
+        margin-left: 0;
+        margin-top: 20px;
+        width: 150px;
+    }
+
+    #titulo-menusuperior, #texto-menusuperior {
+        margin-left: 0;
+        margin-top: 20px;
+        font-size: 18px; /* Reduzir tamanho da fonte */
+        padding-bottom: 20px;
+    }
+
+    /* Informações */
+    #menuinformacional {
         display: flex;
         align-items: center;
         flex-direction: column;
-        width:100%;   
-        margin:0px;
-        height: auto;     
-        
+        width: 100%;
+        margin: 0;
+        height: auto;
     }
 
-    #menuinformacional .texto-informativo{
-        align-items: left;
-        height:50px;      
-        
+    .icone {
+        margin: 0;
     }
 
-    #principal button{
-        width:100%;
-        margin:0px;
+    .texto-informativo {
+        align-items: center;
+        height: auto;
+        font-size: 16px; /* Ajuste do tamanho da fonte */
+        text-align: center;
     }
-=======
->>>>>>> 49bd00a4991eff6f3b8ac2024c756d2171c602c3
+
+    /* Vídeo */
+    #secaovideo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #video {
+        width: 90%;
+        height: 200px;
+        margin: 20px 5px 0px 5px;
+    }
+
+    #titulo-video {
+        font-size: 22px;
+        margin-top: 25px;
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    #texto-video {
+        font-size: 16px;
+        margin-left: 10px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    /* Carrossel */
+    #carrossel {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        position: relative; /* Ensures the button is positioned relative to the carousel */
+    }
+
+    #div-cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .card {
+        margin-bottom: 10px;
+        margin-left: 0px;
+        width: 90%;
+    }
+
+        /* Seta Navigation Arrows */
+        .seta {
+            width: 30px;
+            height: 30px;
+            cursor: pointer;
+            z-index: 10; /* Ensure they appear above other content */
+            display: block; /* Ensure arrows are visible */
+            position: absolute;
+            top: 50%; /* Center vertically */
+            transform: translateY(-50%);
+        }
+    
+        #seta-esquerda {
+            left: 10px; /* Adjust the position to ensure visibility */
+            height: 15px;
+        }
+    
+        #seta-direita {
+            right: 10px; /* Adjust the position to ensure visibility */
+        }
+    
+
+    /* Formulário */
+    #formulario {
+        padding: 20px;
+    }
+
+    #titulo-formulario {
+        font-size: 22px;
+        margin: 20px 0;
+    }
+
+    input {
+        width: 90%;
+        height: 40px;
+    }
+
+    button {
+        width: 80%;
+    }
 }

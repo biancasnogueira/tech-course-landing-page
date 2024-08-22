@@ -6,11 +6,7 @@ var setaEsquerda = window.document.getElementById("seta-esquerda")
 
 function RolarParaDireita() {
     leonardo.style = "display: none"
-<<<<<<< HEAD
     bruna.style = "display: flex"   
-=======
-    bruna.style = "display: flex"
->>>>>>> 49bd00a4991eff6f3b8ac2024c756d2171c602c3
     setaDireita.style = "display: none"
     setaEsquerda.style = "display: flex; margin-top: 55px"
 }
