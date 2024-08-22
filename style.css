@@ -159,7 +159,7 @@ button:hover{
     #titulo-menusuperior, #texto-menusuperior {
         margin-left: 0;
         margin-top: 20px;
-        font-size: 18px; /* Reduzir tamanho da fonte */
+        font-size: 18px;
         padding-bottom: 20px;
     }
 
@@ -180,7 +180,7 @@ button:hover{
     .texto-informativo {
         align-items: center;
         height: auto;
-        font-size: 16px; /* Ajuste do tamanho da fonte */
+        font-size: 16px; 
         text-align: center;
     }
 
@@ -216,7 +216,7 @@ button:hover{
         display: flex;
         flex-direction: column;
         padding: 20px;
-        position: relative; /* Ensures the button is positioned relative to the carousel */
+        position: relative;
     }
 
     #div-cards {
@@ -232,25 +232,25 @@ button:hover{
         width: 90%;
     }
 
-        /* Seta Navigation Arrows */
+        /* Setas */
         .seta {
             width: 30px;
             height: 30px;
             cursor: pointer;
-            z-index: 10; /* Ensure they appear above other content */
-            display: block; /* Ensure arrows are visible */
+            z-index: 10; 
+            display: block; 
             position: absolute;
-            top: 50%; /* Center vertically */
+            top: 50%; 
             transform: translateY(-50%);
         }
     
         #seta-esquerda {
-            left: 10px; /* Adjust the position to ensure visibility */
+            left: 10px; 
             height: 15px;
         }
     
         #seta-direita {
-            right: 10px; /* Adjust the position to ensure visibility */
+            right: 10px; 
         }
     
 
